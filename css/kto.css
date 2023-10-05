@@ -3,12 +3,6 @@
 .splash-image {
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    top: 50%;
-    left: 50%;
     z-index: -1;
 }
 /* CSS for the body */
