@@ -1,0 +1,25 @@
+/* CSS file for the KTO website */
+/* splash-image class that centers the image on the page vertically nd horizontally based on user's device resolution */
+.splash-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40%;
+    width: 60%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/* CSS for the body */
+body {
+    background-color: #f32d2d;
+    font-family: 'gill sans', 'helvetica', 'arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
