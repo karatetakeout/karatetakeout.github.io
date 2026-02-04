@@ -1,9 +1,9 @@
 
-title = "I'm Jane Doe"
-author = "Jane Doe"
+title = "Grant Houser"
+author = "Grant Houser"
 #copyright = "2020-2021"
-description = "Call me Jane"
-profilePicture = "images/profile.jpg"
+description = "IT Professional / Dog Person"
+profilePicture = "images/site-profile.jpg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
@@ -61,22 +61,17 @@ reversepagetitle = true # When set to 'true', the Window Title will be reversed 
 [[socialIcons]]
 icon = "fa-brands fa-linkedin"
 title = "Linkedin"
-url = "https://de.linkedin.com/"
+url = "https://www.linkedin.com/in/grant-houser"
 
 [[socialIcons]]
 icon = "fa-brands fa-github"
 title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
-
-[[socialIcons]]
-icon = "fa-brands fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
+url = "https://github.com/aubreys-it/"
 
 [[socialIcons]]
 icon = "fa-solid fa-envelope"
 title = "e-mail"
-url = "mailto:mail@example.com"
+url = "mailto:grant@karatetakeout.com"
 
 [mermaid]
 # enable = true
