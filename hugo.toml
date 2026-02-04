@@ -6,7 +6,7 @@ title = 'Grant Houser - IT Projects'
   title = "Grant Houser - IT Projects"
   author = "Grant Houser"
   description = "IT Enthusiast / Dog Person"
-  profilePicture = "images/profile.jpg"
+  profilePicture = "images/site-profile.jpg"
   
   # Add your social links here
   [[params.socialIcons]]
