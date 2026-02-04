@@ -1,3 +1,20 @@
 baseURL = 'https://granthouser.info/'
 languageCode = 'en-us'
 title = 'Grant Houser - IT Projects'
+
+[params]
+  title = "Grant Houser - IT Projects"
+  author = "Grant Houser"
+  description = "IT Enthusiast / Dog Person"
+  profilePicture = "images/profile.jpg"
+  
+  # Add your social links here
+  [[params.socialIcons]]
+    icon = "fab fa-github"
+    title = "GitHub"
+    url = "https://github.com/karatetakeout"
+
+  [[params.socialIcons]]
+    icon = "fab fa-linkedin"
+    title = "LinkedIn"
+    url = "https://linkedin.com/in/grant-houser"
