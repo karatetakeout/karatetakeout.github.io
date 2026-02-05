@@ -10,7 +10,7 @@ I’ve spent the better part of three decades at the intersection of hospitality
 ## From the Kitchen to the Server Room
 I didn't start my career in an office; I started in the kitchen. My first job was in the heart of the house, and that operational "grit" stayed with me as I moved into data analytics for our local utilities company and eventually back into the restaurant world.
 
-I’ve been with Aubrey’s Inc. for 19 years. For the first 13 of those, I was in operations as a Kitchen Manager. That experience was invaluable. It gave me a deep understanding of what a restaurant needs to be profitable and efficient—and more importantly, what it feels like when technology gets in the way of a busy Friday night shift.
+I’ve been with Aubrey’s Inc. since 2007. For the first 12 years, I was in operations as a Kitchen Manager. That experience was invaluable. It gave me a deep understanding of what a restaurant needs to be profitable and efficient—and more importantly, what it feels like when technology gets in the way of a busy Friday night shift.
 
 ## Building a Department from Scratch
 When I started, Aubrey’s didn't have an IT department. While still in operations, I started using my background in database management and data analytics to build custom tools to lower our Cost of Goods Sold (COGS). When the numbers proved that tech could directly drive profitability, I made the case to our ownership to establish a dedicated IT function.
