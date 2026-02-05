@@ -7,8 +7,7 @@ tags = ["github", "hugo", "powershell", "ci-cd"]
 categories = ["web development"]
 +++
 
-
-The Project at a Glance I’ve spent a lot of years in this business, and if there is one thing I have learned, it is that even the best projects get forgotten if you don’t write them down. I built this site to serve as a home for my project notes, a bit of a "how-to" library, and a way to share what I’m working on with anyone who is interested.
+I’ve spent a lot of years in this business, and if there is one thing I have learned, it is that even the best projects get forgotten if you don’t write them down. I built this site to serve as a home for my project notes, a bit of a "how-to" library, and a way to share what I’m working on with anyone who is interested.
 
 ## 1. Motivation
 It is not always easy to keep track of every hurdle and victory over a long career. I wanted a spot where I could look back at what I have done and what skills I used to get there. My hope is that by documenting my own process, I can build a resource for others who are tackling the same issues.
