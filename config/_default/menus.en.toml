@@ -17,7 +17,7 @@
   url = "/about/"
 
   [[footer]]
-  name = "imprint"
+  name = "Hosted on Github Pages"
   weight = 1
-  identifier = "imprint"
-  url = "/imprint/"
+  identifier = "Hosted on Github Pages"
+  url = "https://github.com"
