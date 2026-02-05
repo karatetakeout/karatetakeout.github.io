@@ -5,7 +5,7 @@ author = "Grant Houser"
 description = "IT Professional / Dog Person"
 profilePicture = "images/site-profile.jpg"
 keywords = ""
-favicon = "favicons/favicon.ico"
+favicon = "favicons/"
 # example ["css/custom.css"]
 customCss = []
 # example ["js/custom.js"]
