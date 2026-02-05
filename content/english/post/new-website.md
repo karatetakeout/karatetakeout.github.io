@@ -1,26 +1,21 @@
 +++
 author = "Grant Houser"
-title = "Project 00: Initializing the Personal Documentation Pipeline"
+title = "Creating My New Personal Website"
 date = "2026-02-05"
 description = "Architecting a static site using Hugo, Anatole, and GitHub Actions for project tracking."
 tags = ["github", "hugo", "powershell", "ci-cd"]
 categories = ["web development"]
 +++
 
-## 1. Project Identification
-* **Project Name:** Personal Technical Blog
-* **Objective:** Establish a centralized, searchable repository for IT project documentation.
-* **Stack:** Hugo (Extended), Anatole Theme, GitHub Actions, PowerShell.
 
-## 2. Overview
 The Project at a Glance I’ve spent a lot of years in this business, and if there is one thing I have learned, it is that even the best projects get forgotten if you don’t write them down. I built this site to serve as a home for my project notes, a bit of a "how-to" library, and a way to share what I’m working on with anyone who is interested.
 
-## 2. Motivation
+## 1. Motivation
 It is not always easy to keep track of every hurdle and victory over a long career. I wanted a spot where I could look back at what I have done and what skills I used to get there. My hope is that by documenting my own process, I can build a resource for others who are tackling the same issues.
 
 There is an old productivity tip: when you start a to-do list, the first item should be "Create a to-do list." That way, you get to cross something off immediately. This post is my version of that - documenting the very process of getting this site live.
 
-## 3. Strategy
+## 2. Strategy
 I’m a big fan of keeping things lean. I didn't need a flashy, complicated site with a massive database to manage. I wanted something fast, secure, and easy to maintain.
 
 ### Architecture
@@ -34,7 +29,7 @@ I’m a big fan of keeping things lean. I didn't need a flashy, complicated site
 * **VS Code:** Primary IDE for Markdown and TOML configuration.
 * **PowerShell:** Execution environment for local builds and Git operations.
 
-## 4. Implementation
+## 3. Implementation
 
 ### Initializing the Local Environment
 Using `winget` for package management, I installed the Hugo binary and initialized the directory structure.
@@ -72,7 +67,7 @@ git branch -M main
 git remote add origin [https://github.com/karatetakeout/karatetakeout.github.io.git](https://github.com/karatetakeout/karatetakeout.github.io.git)
 git push -u origin main
 ```
-## 5. Results & Roadmap
+## 4. Results & Roadmap
 The site is now live at granthouser.info. The deployment pipeline is verified, and the Anatole interface is successfully rendering content.
 
 ### Next Steps
