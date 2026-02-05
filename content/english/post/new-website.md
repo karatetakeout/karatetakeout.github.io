@@ -14,60 +14,64 @@ It is not always easy to keep track of every hurdle and victory over a long care
 
 There is an old productivity tip: when you start a to-do list, the first item should be "Create a to-do list." That way, you get to cross something off immediately. This post is my version of that - documenting the very process of getting this site live.
 
+
 ## 2. Strategy
 I’m a big fan of keeping things lean. I didn't need a flashy, complicated site with a massive database to manage. I wanted something fast, secure, and easy to maintain.
 
-### Architecture
--Framework: Hugo (A static site generator that handles the heavy lifting).
--Theme: Anatole (I love the minimalist, clean look).
--Hosting: GitHub Pages (Reliable and integrates perfectly with my workflow).
--Automation: GitHub Actions (I set this up so that the moment I finish writing, the site updates itself automatically).
+  ### Architecture
+  - Framework: Hugo (A static site generator that handles the heavy lifting).
+  - Theme: Anatole (I love the minimalist, clean look).
+  - Hosting: GitHub Pages (Reliable and integrates perfectly with my workflow).
+  - Automation: GitHub Actions (I set this up so that the moment I finish writing, the site updates itself automatically).
 
-### Core Tools
-* **Hugo Extended:** Required for SCSS processing in modern themes.
-* **VS Code:** Primary IDE for Markdown and TOML configuration.
-* **PowerShell:** Execution environment for local builds and Git operations.
+  ### Core Tools
+  * **Hugo Extended:** Required for SCSS processing in modern themes.
+  * **VS Code:** Primary IDE for Markdown and TOML configuration.
+  * **PowerShell:** Execution environment for local builds and Git operations.
+
 
 ## 3. Implementation
 
-### Initializing the Local Environment
-Using `winget` for package management, I installed the Hugo binary and initialized the directory structure.
+  ### Initializing the Local Environment
+  Using `winget` for package management, I installed the Hugo binary and initialized the directory structure.
 
-```powershell
-# Install Hugo Extended
-winget install Hugo.Hugo.Extended
+  ```powershell
+  # Install Hugo Extended
+  winget install Hugo.Hugo.Extended
 
-# Create the site and initialize version control
-hugo new site my-project
-cd my-project
-git init
-```
+  # Create the site and initialize version control
+  hugo new site my-project
+  cd my-project
+  git init
+  ```
 
-### Theme & Configuration
-I selected the <b>Anatole</b> theme for its minimalist aesthetic and clear navigation. To maintain a clean upstream path, I integrated the theme as a Git submodule.
+  ### Theme & Configuration
+  I selected the <b>Anatole</b> theme for its minimalist aesthetic and clear navigation. To maintain a clean upstream path, I integrated the theme as a Git submodule.
 
-```powershell
-# Add Anatole as a tracked submodule
-git submodule add [https://github.com/lxndrblz/anatole.git](https://github.com/lxndrblz/anatole.git) themes/anatole
+  ```powershell
+  # Add Anatole as a tracked submodule
+  git submodule add [https://github.com/lxndrblz/anatole.git](https://github.com/lxndrblz/anatole.git) themes/anatole
 
-# Deploy the example configuration as a baseline
-Copy-Item -Path "themes/anatole/exampleSite/config.toml" -Destination "hugo.toml" -Force
-```
+  # Deploy the example configuration as a baseline
+  Copy-Item -Path "themes/anatole/exampleSite/config.toml" -Destination "hugo.toml" -Force
+  ```
 
-### Continuos Deployment (CI/CD)
-I configured a GitHub Action (.github/workflows/deploy.yml) using the standard Hugo deployment workflow. This allows me to push Markdown files and let GitHub handle the site compilation automatically.
+  ### Continuos Deployment (CI/CD)
+  I configured a GitHub Action (.github/workflows/deploy.yml) using the standard Hugo deployment workflow. This allows me to push Markdown files and let GitHub handle the site compilation automatically.
 
-### Final Push
-The local source was linked to my remote repository and pushed to the main branch:
-```powershell
-git add .
-git commit -m "Initial commit: Infrastructure setup & theme integration"
-git branch -M main
-git remote add origin [https://github.com/karatetakeout/karatetakeout.github.io.git](https://github.com/karatetakeout/karatetakeout.github.io.git)
-git push -u origin main
-```
+  ### Final Push
+  The local source was linked to my remote repository and pushed to the main branch:
+  ```powershell
+  git add .
+  git commit -m "Initial commit: Infrastructure setup & theme integration"
+  git branch -M main
+  git remote add origin [https://github.com/karatetakeout/karatetakeout.github.io.git](https://github.com/karatetakeout/karatetakeout.github.io.git)
+  git push -u origin main
+  ```
+
+
 ## 4. Results & Roadmap
 The site is now live at granthouser.info. The deployment pipeline is verified, and the Anatole interface is successfully rendering content.
 
-### Next Steps
-Now that the foundation is laid, the real work begins. I’ll be going back through my recent projects to outline them here, and I’ll be posting updates on any new initiatives I start.
+  ### Next Steps
+  Now that the foundation is laid, the real work begins. I’ll be going back through my recent projects to outline them here, and I’ll be posting updates on any new initiatives I start.
