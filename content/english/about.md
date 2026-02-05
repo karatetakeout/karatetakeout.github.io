@@ -13,7 +13,7 @@ I didn't start my career in an office; I started in the kitchen. My first job wa
 I’ve been with Aubrey’s Inc. for 19 years. For the first 13 of those, I was in operations as a Kitchen Manager. That experience was invaluable. It gave me a deep understanding of what a restaurant needs to be profitable and efficient—and more importantly, what it feels like when technology gets in the way of a busy Friday night shift.
 
 ## Building a Department from Scratch
-Six years ago, Aubrey’s didn't have an IT department. While still in operations, I started using my background in database management and data analytics to build custom tools to lower our Cost of Goods Sold (COGS). When the numbers proved that tech could directly drive profitability, I made the case to our ownership to establish a dedicated IT function.
+When I started, Aubrey’s didn't have an IT department. While still in operations, I started using my background in database management and data analytics to build custom tools to lower our Cost of Goods Sold (COGS). When the numbers proved that tech could directly drive profitability, I made the case to our ownership to establish a dedicated IT function.
 
 Since then, I’ve had the privilege of building our IT infrastructure from the ground up. I serve as a "one-stop shop" for our group, bridging the gap between hardware, software, and people:
 
