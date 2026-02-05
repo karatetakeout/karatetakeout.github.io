@@ -14,7 +14,7 @@ It is not always easy to keep track of every hurdle and victory over a long care
 
 There is an old productivity tip: when you start a to-do list, the first item should be "Create a to-do list." That way, you get to cross something off immediately. This post is my version of that - documenting the very process of getting this site live.
 
-<br>
+&nbsp;
 ## 2. Strategy
 I’m a big fan of keeping things lean. I didn't need a flashy, complicated site with a massive database to manage. I wanted something fast, secure, and easy to maintain.
 
@@ -29,7 +29,7 @@ I’m a big fan of keeping things lean. I didn't need a flashy, complicated site
   * **VS Code:** Primary IDE for Markdown and TOML configuration.
   * **PowerShell:** Execution environment for local builds and Git operations.
 
-<br>
+&nbsp;
 ## 3. Implementation
 
   ### Initializing the Local Environment
@@ -69,7 +69,7 @@ I’m a big fan of keeping things lean. I didn't need a flashy, complicated site
   git push -u origin main
   ```
 
-<br>
+&nbsp;
 ## 4. Results & Roadmap
 The site is now live at granthouser.info. The deployment pipeline is verified, and the Anatole interface is successfully rendering content.
 
