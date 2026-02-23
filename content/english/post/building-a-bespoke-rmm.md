@@ -7,7 +7,7 @@ tags = ["cursor ai", "python", "powershell", "windows service, snmp"]
 categories = ["ROI", "Cost Optimization", "RMM", "Proactive IT"]
 +++
 
-One of the primary concerns in a multi-unit hospitality environment is the "Visibility Gap." With nearly 300 endpoints across 30 physical locations in Middle and East Tennessee, the risk of a catastrophic hardware failure isn't just a technical problem—it’s a revenue problem. A fried server or a crashed POS terminal during a Friday night rush leads to immediate sales loss and operational chaos.
+One of the primary concerns in a multi-unit hospitality environment is the "Visibility Gap." With nearly 300 endpoints across 30 physical locations in Middle and East Tennessee, the risk of a catastrophic hardware failure isn't just a technical problem, it’s a revenue problem. A fried server or a crashed POS terminal during a Friday night rush leads to immediate sales loss and operational chaos.
 
 As a one-person IT department, I don’t have the luxury of manually checking the health of every device. I needed a way to manage upgrades, monitor hardware vitals, and handle patches proactively rather than reactively.
 
@@ -15,7 +15,8 @@ As a one-person IT department, I don’t have the luxury of manually checking th
 ## The RMM Challenge
 This led me to research <b>Remote Monitoring and Management (RMM)</b> solutions.
 
-> <b>What is an RMM?<b>
+> <b>What is an RMM?</b>
+
 > An RMM is a platform designed to help IT professionals monitor and manage endpoints (servers, workstations, and mobile devices) from a centralized location. It provides real-time visibility into system health, automates routine maintenance, and allows for remote troubleshooting. The primary benefits are increased uptime, enhanced security through automated patching, and the ability to scale IT oversight without adding headcount.
 
 The hurdle was the cost. Most RMM providers utilize a per-endpoint pricing model. After vetting several vendors, the quote to cover our footprint was approximately $10,000 per year. Even native solutions like Microsoft Intune carried a significant price tag and administrative overhead that made it a difficult sell for a lean organization.
@@ -42,7 +43,7 @@ Using Cursor as my primary development environment, I was able to move from conc
     * Execute SSH commands directly from the management console.
 
 &nbsp;
-# The Result: $2 vs. $10,000
+## The Result: $2 vs. $10,000
 The result is a fully functional, company-owned RMM that runs on our existing infrastructure with zero SaaS fees.
 
 The efficiency of using a tool like Cursor cannot be overstated. While I am a proficient Python scripter, a project of this scope would traditionally have taken weeks of dedicated coding. By leveraging AI-assisted development, I spent about $2 in subscription time and three days of work to save the company $10,000 annually.
