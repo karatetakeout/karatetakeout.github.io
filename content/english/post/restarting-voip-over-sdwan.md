@@ -50,7 +50,7 @@ The SSH key never leaves the corporate server. The manager never sees a URL, a c
 
 As I started building this out for our first store, I thought ahead to the eventual rollout across all of our locations. A single shared secret across all stores would mean that if one store's script was ever copied or compromised, it could theoretically restart phones at any location. That felt sloppy.
 
-Instead, each store gets its own unique secret. The Flask service validates incoming requests against the secret for that specific store endpoint. A Lenoir City secret sent to a Knoxville endpoint gets a 403. The credential is scoped to exactly one store and one action.
+Instead, each store gets its own unique secret. The Flask service validates incoming requests against the secret for that specific store endpoint. A secret from one location sent to another location's endpoint gets a 403. The credential is scoped to exactly one store and one action.
 
 When I add more stores, it's a three-step process: add an entry to the store registry, copy the SSH public key to that location's UDM Pro, and generate a new secret. The store PC gets its own version of the script with its own secret baked in.
 
