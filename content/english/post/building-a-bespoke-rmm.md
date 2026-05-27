@@ -3,7 +3,7 @@ author = "Grant Houser"
 title = "Building a Bespoke RMM"
 date = "2026-02-23"
 description = "How I saved $10k and Gained Full Network Visibility in 3 Days"
-tags = ["cursor ai", "python", "powershell", "windows service, snmp"]
+tags = ["cursor ai", "python", "powershell", "windows service", "snmp"]
 categories = ["ROI", "Cost Optimization", "RMM", "Proactive IT"]
 +++
 
