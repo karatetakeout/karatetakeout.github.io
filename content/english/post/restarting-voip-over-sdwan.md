@@ -35,7 +35,7 @@ Manager double-clicks desktop shortcut
         ↓
 PowerShell script on store office PC
         ↓  (HTTPS over SD-WAN)
-Flask service on corporate server (10.0.100.103:8443)
+Flask service on corporate server
         ↓  (SSH with key-based auth)
 UDM Pro at store
         ↓
